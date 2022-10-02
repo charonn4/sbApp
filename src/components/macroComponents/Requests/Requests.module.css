@@ -1,0 +1,26 @@
+.table{
+    width: 100%;
+    text-align: left;
+}
+.preloader{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+.preloader img{
+    height: 100px;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 12px;
+}
+.green{
+    background-color: #60a960;
+}
+.red{
+    background-color: #ea6363;
+}

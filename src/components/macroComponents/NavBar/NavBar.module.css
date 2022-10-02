@@ -1,3 +1,7 @@
-.nav{
-    width: 200px;
+
+.link{
+    text-decoration: none;
+    color: #808080;
+    border: none;
+    background-color: transparent;
 }
