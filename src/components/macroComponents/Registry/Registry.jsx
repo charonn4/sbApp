@@ -24,10 +24,12 @@ const Registry = () => {
 
     useEffect(() => {
         if (isRegister){
+            // если успешно то перенаправляет, таймаут для имитации поставил
             setTimeout(() => {
                 return navigate("/authorization");
             },500)
         }else if(isError){
+            // если isError становится true то перенаправляет 404
             return navigate("/404");
         }
     },[isRegister, isError])

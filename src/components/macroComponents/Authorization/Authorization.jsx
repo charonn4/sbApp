@@ -27,12 +27,12 @@ const Authorization = () => {
 
     useEffect(() => {
         if (isAuthorized) {
-            // если успешно то перенаправляет, таймаут для имитации
+            // если успешно то перенаправляет, таймаут для имитации поставил
             setTimeout(()=>{
                 return navigate("/requests");
             }, 500)
         } else if (isError) {
-            // если 404 то перенаправляет
+            // если isError становится true то перенаправляет 404
             return navigate("/404");
         }
     },[isAuthorized, isError])

@@ -80,7 +80,7 @@ const Requests = () => {
                     <TableBody>
                         { requests.map(request =>
                             <StyledTableRow key={request.id}>
-                                <StyledTableCell >{request.id}</StyledTableCell>
+                                <StyledTableCell >№ {request.id}</StyledTableCell>
                                 <StyledTableCell >{request.fio}</StyledTableCell>
                                 <StyledTableCell >{request.phoneNumber}</StyledTableCell>
                                 <StyledTableCell >{request.email}</StyledTableCell>
